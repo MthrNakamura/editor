@@ -53,6 +53,7 @@ var ThumbnailView = Backbone.View.extend({
 		$(e.target).addClass('focused');
 		currentSelected = e.target;
 	},
+	/* サムネイルを描画 */
 	render: function() {
 		return this;
 	}
