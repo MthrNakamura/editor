@@ -75,6 +75,7 @@ var ThumbnailsView = Backbone.View.extend({
 		}, this);
 		return this;
 	},
+	/* サムネイルを削除 */
 	removeSlide: function(model, collection, option) {
 		this.renderAll();
 	}
